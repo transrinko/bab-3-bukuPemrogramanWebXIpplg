@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BorderType */
+.container1{
+    margin: 0 10px;
+}
+.judul1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box div{
+    padding: 10px;
+}
+
+.box1{
+    background-color: #f44336;
+    border: 5px dotted #b71c1c;
+}
+
+.box2{
+    background-color: #2196f3;
+    border: 5px dashed #0d47a1;
+}
+
+.box3{
+    background-color: #4caf50;
+    border: 5px solid #1b5e20;
+}
+
+.box4{
+    background-color: #ff9800;
+    border: 5px double #e65100;
+}
+
+.box5{
+    background-color: #9c27b0;
+    border: 5px groove #4a148c;
+}
+
+.box6{
+    background-color: #00bcd4;
+    border: 5px ridge #006064;
+}
+
+.box7{
+    background-color: #ffeb3b;
+    border: 5px inset #f57f17;
+    color: black;
+}
+.box8{
+    background-color: #d1d1d1;
+    border: 5px outset #3e2723;
+}
+.box9{
+    border: 5px none;
+}
+.box10{
+    border: 5px hidden;
+}
+
+/* Border Terpisah */
+.judul2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.containerbox div{
+    padding: 10px;
+}
+
+.bawah{
+    border-bottom: 5px solid #000;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.atas{
+    border-top: 5px solid #000;
+    background-color: #2196f3;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.kiri{
+    border-left: 5px solid #000;
+    background-color: #4caf50;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.kanan{
+    border-right: 5px solid #000;
+    background-color: #ff9800;
+    color: white;
+    margin-bottom: 10px;
+}

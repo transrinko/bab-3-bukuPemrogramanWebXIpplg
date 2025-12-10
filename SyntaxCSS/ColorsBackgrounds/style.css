@@ -1,0 +1,144 @@
+/* ====== COLORS ====== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.color-demo h3 {
+  color: #222;
+  margin-top: 25px;
+}
+
+/* 1. Berdasarkan nama warna */
+.nama {
+  color: blue;
+}
+
+/* 2. Berdasarkan nilai hex */
+.hex1 {
+  color: #f57333; /* oranye */
+}
+.hex2 {
+  color: #f00; /* merah */
+}
+
+/* 3. Berdasarkan RGB */
+.rgb {
+  color: rgb(255, 87, 51);
+}
+
+/* 4. Berdasarkan RGBA */
+.rgba {
+  color: rgba(255, 87, 51, 0.5);
+}
+
+/* 5. Berdasarkan HSL */
+.hsl {
+  color: hsl(300, 76%, 72%);
+}
+
+/* 6. Berdasarkan HSLA */
+.hsla {
+  color: hsla(300, 76%, 72%, 0.5);
+}
+
+/* ====== BACKGROUNDS ====== */
+
+.background-demo div {
+  margin: 15px 0;
+  padding: 25px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* 1. Background color */
+.warna-bg {
+  background-color: lightblue;
+  color: black;
+}
+
+/* 2. Background image */
+.gambar-bg {
+  background-image: url('img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* 3. Background repeat */
+.repeat {
+  background-image: url('logo.png');
+  background-repeat: repeat;
+}
+.no-repeat {
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+}
+.repeat-x {
+  background-image: url('logo.png');
+  background-repeat: repeat-x;
+}
+.repeat-y {
+  background-image: url('logo.png');
+  background-repeat: repeat-y;
+}
+
+/* 4. Background position */
+.top {
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 50%;
+}
+.bottom {
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 50%;
+}
+.left {
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 50%;
+}
+.right {
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50%;
+}
+.percent {
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 50%;
+}
+
+/* 5. Background size */
+.cover {
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contain {
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* 6. Shorthand property */
+body {
+  background: #fff url('img/img_tree.png') no-repeat right top;
+}

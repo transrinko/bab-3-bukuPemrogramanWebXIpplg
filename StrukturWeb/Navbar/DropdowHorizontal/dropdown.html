@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Horizontal Navbar with Dropdown</title>
+    <link rel="stylesheet" href="dropdown.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-logo">MyWebsite</div>
+      <input type="checkbox" class="navbar-checkbox" id="toggle" />
+      <label for="toggle" class="navbar-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <ul class="navbar-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Services</a>
+          <div class="dropdown-content">
+            <a href="#">Web Design</a>
+            <a href="#">SEO</a>
+            <a href="#">Marketing</a>
+          </div>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+        <h1>Welcome to MyWebsite</h1>
+        <p>This is a simple Horizontal navigation bar examplewith dropdown.</p>
+    </div>
+  </body>
+</html>

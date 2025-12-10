@@ -1,0 +1,15 @@
+.normal {
+  text-transform: none; /* Tidak ada perubahan */
+}
+
+.capitalize {
+  text-transform: capitalize; /* Huruf pertama tiap kata jadi besar */
+}
+
+.uppercase {
+  text-transform: uppercase; /* Semua huruf jadi besar */
+}
+
+.lowercase {
+  text-transform: lowercase; /* Semua huruf jadi kecil */
+}

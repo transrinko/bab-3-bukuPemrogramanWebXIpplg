@@ -1,0 +1,38 @@
+body {
+  font-family: Verdana, sans-serif;
+}
+
+/* Struktur utama */
+.pagination ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.pagination ul li {
+  margin: 0 5px;
+}
+
+.pagination ul li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Efek hover dan aktif */
+.pagination ul li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.pagination ul li a.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
