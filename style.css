@@ -50,7 +50,7 @@ h3 {
     padding-bottom: 5px;
 }
 
-/* Kolom Card Sederhana */
+/* Kolom dan Baris component*/
 .row {
     display: flex;
     flex-wrap: wrap;
